@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Rack::SeoRedirect::VERSION
   spec.authors       = ["Michael Khabarov"]
   spec.email         = ["michaelkhabarov@alphastate.ru"]
-  spec.description   = %q{Remove or add www and trailing slash from urls for Rack applications. Use it if you don't want (or can't) edit Nginx or Apache configs.}
+  spec.description   = %q{Remove or add www and trailing slash from urls for Rack applications. Use it if you can not edit Nginx or Apache configs.}
   spec.summary       = %q{Make www and trailing slash redirects from Rack}
   spec.homepage      = "https://github.com/michaelkhabarov/rack-seo_redirect"
   spec.license       = "MIT"
